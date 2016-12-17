@@ -9,7 +9,12 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
-
+@property(strong,nonatomic) UITextField *textField1;
+@property(strong,nonatomic) UITextField *textField2;
+@property(strong,nonatomic) UITextField *textField3;
+@property(strong,nonatomic) UITextField *textField4;
+@property(strong,nonatomic) UILabel *label;
+@property(strong,nonatomic) NSMutableString *str;
+@property(strong,nonatomic) NSMutableArray *array1 ;
 @end
 
